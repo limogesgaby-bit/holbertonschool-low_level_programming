@@ -26,11 +26,3 @@ void times_table(void)
 		_putchar('\n');
 	}
 }
-
-/* TEST
-int main(void)
-{
-	times_table();
-	return (0);
-}
-TEST */
