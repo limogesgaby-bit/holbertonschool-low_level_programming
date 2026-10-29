@@ -7,9 +7,9 @@
  */
 void print_alphabet(void)
 {
-\tchar c;
+	char c;
 
-\tfor (c = 'a'; c <= 'z'; c++)
-\t\t_putchar(c);
-\t_putchar('\\n');
+	for (c = 'a'; c <= 'z'; c++)
+		_putchar(c);
+	_putchar('\n');
 }
