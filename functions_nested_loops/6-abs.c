@@ -12,28 +12,3 @@ int _abs(int n)
 		return (-n);
 	return (n);
 }
-
-/* TEST
-int main(void)
-{
-	int r;
-
-	r = _abs(-1);
-	_putchar(r / 10 + '0');
-	_putchar(r % 10 + '0');
-	_putchar('\n');
-	r = _abs(0);
-	_putchar(r / 10 + '0');
-	_putchar(r % 10 + '0');
-	_putchar('\n');
-	r = _abs(1);
-	_putchar(r / 10 + '0');
-	_putchar(r % 10 + '0');
-	_putchar('\n');
-	r = _abs(-98);
-	_putchar(r / 10 + '0');
-	_putchar(r % 10 + '0');
-	_putchar('\n');
-	return (0);
-}
-TEST */
