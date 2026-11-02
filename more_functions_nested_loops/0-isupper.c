@@ -12,15 +12,3 @@ int _isupper(int c)
 		return (1);
 	return (0);
 }
-
-/**
- * #include <stdio.h>
- *
- * int main(void)
- * {
- * 	printf("%c: %d\n", 'A', _isupper('A'));
- * 	printf("%c: %d\n", 'a', _isupper('a'));
- * 	return (0);
- * }
- */
- 
