@@ -11,20 +11,20 @@ void puts_half(char *str)
 	int len = 0, i;
 
 	while (str[len] != '\0')
-	    len++;
+		len++;
 
 	for (i = (len + 1) / 2; i < len; i++)
-	    _putchar(str[i]);
+		_putchar(str[i]);
 
 	_putchar('\n');
 }
 
 /*
-int main(void)
-{
-	puts_half("0123456789");
-	puts_half("Lorem ipsum");
-	puts_half("");
-	return (0);
-}
-*/
+ * int main(void)
+ * {
+ *     puts_half("0123456789");
+ *     puts_half("Lorem ipsum");
+ *     puts_half("");
+ *     return (0);
+ * }
+ */
