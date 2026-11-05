@@ -11,3 +11,4 @@ Exercices C sur les pointeurs, les tableaux et les chaînes de caractères.
 | 4-rev_array.c | Inverse le contenu d'un tableau d'entiers (`reverse_array`) |
 | 5-string_toupper.c | Passe les minuscules d'une chaîne en majuscules (`string_toupper`) |
 | 6-cap_string.c | Met en majuscule la première lettre de chaque mot (`cap_string`) |
+| 7-leet.c | Encode une chaîne en 1337 (`leet`) |
