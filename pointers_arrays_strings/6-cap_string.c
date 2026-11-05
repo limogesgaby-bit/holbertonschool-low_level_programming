@@ -37,3 +37,15 @@ char *cap_string(char *str)
 *	return (0);
 *}
 */
+
+/*
+#include <stdio.h>
+
+int main(void)
+{
+	char str[] = "hello world! hello-world 0123hello\tworld.hello\n";
+
+	printf("%s", cap_string(str));
+	return (0);
+}
+*/
