@@ -26,14 +26,14 @@ char *_strncpy(char *dest, char *src, int n)
 }
 
 /*
-#include <stdio.h>
-
-int main(void)
-{
-	char s1[98];
-
-	_strncpy(s1, "First, solve the problem", 5);
-	printf("%s\n", s1);
-	return (0);
-}
+*#include <stdio.h>
+*
+*int main(void)
+*{
+*	char s1[98];
+*
+*	_strncpy(s1, "First, solve the problem", 5);
+*	printf("%s\n", s1);
+*	return (0);
+*}
 */
