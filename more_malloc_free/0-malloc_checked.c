@@ -18,20 +18,20 @@ void *malloc_checked(unsigned int b)
 	return (p);
 }
 /* Test à décommenter pour compiler localement :
-#include <stdio.h>
-#include <limits.h>
-
-int main(void)
-{
-	char *c;
-	int *i;
-
-	c = malloc_checked(sizeof(char) * 1024);
-	printf("%p\n", (void *)c);
-	i = malloc_checked(INT_MAX);
-	printf("%p\n", (void *)i);
-	free(c);
-	free(i);
-	return (0);
-}
+*#include <stdio.h>
+*#include <limits.h>
+*
+*int main(void)
+*{
+*	char *c;
+*	int *i;
+*
+*	c = malloc_checked(sizeof(char) * 1024);
+*	printf("%p\n", (void *)c);
+*	i = malloc_checked(INT_MAX);
+*	printf("%p\n", (void *)i);
+*	free(c);
+*	free(i);
+*	return (0);
+*}
 */
