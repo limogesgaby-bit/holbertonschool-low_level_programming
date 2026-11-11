@@ -17,7 +17,6 @@ void *malloc_checked(unsigned int b)
 
 	return (p);
 }
-
 /* Test à décommenter pour compiler localement :
 #include <stdio.h>
 #include <limits.h>
