@@ -1,14 +1,12 @@
-# 0x0B. C - malloc, free
+# More malloc, free
 
-This project introduces dynamic memory allocation in C using malloc and free.
-
-## Requirements
-- Compiled on Ubuntu 20.04 using gcc.
-- Compilation flags: -Wall -Werror -Wextra -pedantic -std=gnu89.
-- Follow the Betty coding style.
-- No global variables.
-- Maximum of 5 functions per file.
-- Only malloc and free are allowed from the standard library.
+Repository of the Holberton project "More malloc, free".
 
 ## Files
-- 0-create_array.c: Creates an array of characters and initializes it with a specific character.
+
+- `0-malloc_checked.c`: allocates memory with malloc and exits with status 98 on failure.
+- `main.h`: prototypes of the functions of the project.
+
+## Compilation
+
+gcc -Wall -pedantic -Werror -Wextra -std=gnu89 *.c -o a
