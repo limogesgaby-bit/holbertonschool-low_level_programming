@@ -40,16 +40,16 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 }
 
 /*
-#include <stdio.h>
-
-int main(void)
-{
-	char *r = string_nconcat("Hello ", "World", 3);
-
-	if (r == NULL)
-		return (1);
-	printf("%s\n", r);
-	free(r);
-	return (0);
-}
+*#include <stdio.h>
+*
+*int main(void)
+*{
+*	char *r = string_nconcat("Hello ", "World", 3);
+*
+*	if (r == NULL)
+*		return (1);
+*	printf("%s\n", r);
+*	free(r);
+*	return (0);
+*}
 */
