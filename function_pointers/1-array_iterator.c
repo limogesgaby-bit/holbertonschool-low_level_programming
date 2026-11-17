@@ -26,14 +26,14 @@ void array_iterator(int *array, size_t size, void (*action)(int))
  *
  * void print_elem(int elem)
  * {
- * 	printf("%d\n", elem);
+ *	printf("%d\n", elem);
  * }
  *
  * int main(void)
  * {
- * 	int array[5] = {0, 98, 402, 1024, 4096};
+ *	int array[5] = {0, 98, 402, 1024, 4096};
  *
- * 	array_iterator(array, 5, &print_elem);
- * 	return (0);
+ *	array_iterator(array, 5, &print_elem);
+ *	return (0);
  * }
  */
