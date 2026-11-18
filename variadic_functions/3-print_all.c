@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdarg.h>
+#include <stddef.h>
 #include "variadic_functions.h"
 
 /**
@@ -22,9 +23,7 @@ void print_all(const char * const format, ...)
 	{
 		if (printed && (format[i] == 'c' || format[i] == 'i' ||
 				format[i] == 'f' || format[i] == 's'))
-		{
 			printf(", ");
-		}
 		switch (format[i])
 		{
 			case 'c':
@@ -46,8 +45,6 @@ void print_all(const char * const format, ...)
 				printf("%s", str);
 				printed = 1;
 				break;
-			default:
-				break;
 		}
 		i++;
 	}
@@ -56,9 +53,9 @@ void print_all(const char * const format, ...)
 }
 
 /*
-int main(void)
-{
-	print_all("ceis", 'B', 3, "stSchool");
-	return (0);
-}
-*/
+ * int main(void)
+ * {
+ *	print_all("ceis", 'B', 3, "stSchool");
+ *	return (0);
+ * }
+ */
