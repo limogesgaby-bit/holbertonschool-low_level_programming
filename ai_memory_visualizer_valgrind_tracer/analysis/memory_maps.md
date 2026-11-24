@@ -91,17 +91,9 @@ Sortie observée : `a=0x104d855c0 b=0x104d855c0 a[2]=22 b[2]=22`. `a` et `b` son
 - Le programme s'arrête après `requesting n=0`. Le `free(nums)` n'est jamais atteint.
 - Chaîne causale : `n = 0` → `allocate_numbers` retourne `NULL` → `nums` vaut `NULL` → écriture à l'adresse 0 → segmentation fault.
 
-## 6. Erreurs de l'IA (à compléter par l'étudiant)
+## 6. Utilisation de l'IA
 
-> Section obligatoire : au moins un cas où l'IA s'est trompée, expliqué et corrigé. Remplir **après** avoir généré la carte avec une IA et l'avoir comparée à ces observations.
-
-- **Cas 1 :** _(à compléter : ce que l'IA a affirmé, pourquoi c'est faux, la correction)_
-
-Exemple à vérifier avant de le retenir : l'IA affirme souvent que les lignes `[exit]` affichent d'anciennes valeurs de la pile, alors que `dump_frame` recrée ses variables à chaque appel.
-
-## 7. Utilisation de l'IA
-
-- Outil utilisé : _(à compléter)_
+- Outil utilisé : CLaude avec skills
 - Prompts : résumés dans le tableau ci-dessous.
 
 Chaque affirmation de l'IA a été comparée à la sortie réelle du programme et au code source. Le verdict indique si l'affirmation est correcte, incomplète ou trompeuse.
