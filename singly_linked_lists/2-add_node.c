@@ -26,24 +26,13 @@ list_t *add_node(list_t **head, const char *str)
 		free(new);
 		return (NULL);
 	}
-	new->len = strlen(new->str);
+
+	new->len = 0;
+	while (new->str[new->len] != '\0')
+		new->len++;
+
 	new->next = *head;
 	*head = new;
 
 	return (new);
 }
-
-/*
-*#include <stdio.h>
-*int main(void)
-*{
-*	list_t *head;
-*
-*	head = NULL;
-*	add_node(&head, "Alexandro");
-*	add_node(&head, "Asaia");
-*	add_node(&head, "Augustin");
-*	print_list(head);
-*	return (0);
-*}
-*/
